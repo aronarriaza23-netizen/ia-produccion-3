@@ -13,7 +13,7 @@ df['Telefono'] = temp[0].str.replace(r'[\s-]', '', regex=True)
 df['Anexo'] = temp[1].str.strip() if temp.shape[1] > 1 else ""
 
 # Exportar el DataFrame
-df.to_excel(r"C:\Users\Alumno\Proyectos\ia-produccion-3\plan_de_compras_2025_limpio.xlsx", index=False)
+df.to_excel(r"C:\Users\Alumno\Proyectos\ia-produccion-3\notebooks\plan_de_compras_2025_limpio.xlsx", index=False)
 
 print("Archivo exportado.")
 
