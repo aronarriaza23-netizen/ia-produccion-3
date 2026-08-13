@@ -1,0 +1,7 @@
+
+import pandas as pd
+
+#url = "https://tu_empresa.sharepoint.com/sites/tu_sitio/Shared%20Documents/plan_de_compras_2025.xlsx"
+df = pd.read_excel("agents/skills/Notebooks/plan_de_compras_2025.xlsx")
+
+print(df.head())
